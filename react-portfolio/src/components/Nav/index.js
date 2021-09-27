@@ -16,10 +16,10 @@ function Nav(props) {
     return (
         <div>
             <nav>
-                <ul className="category-list">
+                <ul className="category-list flex-row">
                     {categories.map((category) => (
                         <li
-                            className={`mx-1 ${currentCategory.name === category.name
+                            className={`mx-2 ${currentCategory.name === category.name
                                 }`}
                             key={category.name}
                         >

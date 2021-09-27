@@ -31,6 +31,5 @@ a {
   text-decoration: none;
   list-style: none;
   color: var(--secondary-color);
-  flex-direction: row;
 background-color: var(--primary-color);
 }

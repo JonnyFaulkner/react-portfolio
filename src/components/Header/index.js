@@ -10,7 +10,7 @@ function Header(props) {
     return (
         <div className="header">
             <h1>
-                <a href="/" className="title-link">My Portfolio!</a>
+                <a href="/" className="title-link">Jonathan Faulkner</a>
             </h1>
             <Nav
                 categories={categories}
